@@ -62,10 +62,10 @@
 .content {
 	color: #fff;
 	position: absolute;
-	right: 200px;
+	left: 25%;
 	top: 45%;
-	/* transform: translateY(50%); */
-	transform: translateX(-250%);
+  width:100%
+ 
 }
 
 .content h1 {
@@ -76,10 +76,11 @@
 }
 
 .line2 {
-	width: pxpx;
+	width: 370px;
 	height: 2px;
-	margin: auto;
 	background: #fff;
+  left: 15%;
+  
 }
 
 .btn {
@@ -104,6 +105,10 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;
+	/* min-width: 100%;
+	min-height: 100%; */
+	
+	
 	/* display: none; */
 }
 
@@ -114,9 +119,9 @@
 	}
 }
 
-/* @media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {
 	#backVideo {
 		width: auto;
 		height: 100%;
 	}
-} */
+}
